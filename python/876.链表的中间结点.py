@@ -32,7 +32,7 @@ class Solution:
         '''
         #  22222 快满指针方法，快指针一次走两步，慢指针一次走一步，这样当快指针走完的时候，慢指针
         #刚好走到终点，
-        '''
+        
         slow = head
         fast = head
         # 这里的fast很重要，因为最后一步可能会溢出（当fast为空时没有next属性，此时却还要往前走，肯定错误）
@@ -55,7 +55,7 @@ class Solution:
             head = head.next
 
         return head
-        
+        '''
 
 
 
