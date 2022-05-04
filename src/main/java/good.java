@@ -5,7 +5,11 @@
 public class good {
     public static void main(String[] args) {
         System.out.println("test git reset");
+
         System.out.println("test git reset master");
+
+        System.out.println("test git reset,dev");
+
         System.out.println("test git reset");
     }
 }
